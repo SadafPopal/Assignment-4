@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Interactive Wall</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Afghan Proverbs</h1>
+    <p class="subtitle">Share Your Wisdom</p>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="wall.html">Interactive Wall</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="wall-section">
+      <h2>Interactive Wall</h2>
+      <p>Submit your favorite Afghan proverb below:</p>
+      <form class="proverb-form">
+        <label for="proverb">Proverb (Pashto or Dari):</label>
+        <textarea id="proverb" name="proverb" rows="2" required></textarea>
+
+        <label for="translation">English Translation:</label>
+        <textarea id="translation" name="translation" rows="2" required></textarea>
+
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </main>
+</body>
+</html>
